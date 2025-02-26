@@ -1,11 +1,22 @@
 {
   "lang": "beja-hud",
-  "subfamily": "Beja",
+  "subfamily": "cushitic beja",
   "lgpref": "bhu",
-  "datasource": "Hudson, Richard. 1976. 'The Beja Language'. in Lionel Bender (ed.), Non-Semitic Languages of Ethiopia. Michigan State University Press. pp. 139-154; Appleyard, David. 2007. 'The Beja Language'. in Alan Kaye (ed.), Morphologies of Asia and Africa (2 vols). Eisenbrauns. Winona Lake IN. Eisenbrauns. vol. 1, pp. 447-480 [HDp. and APp}",
+  "datasource": "Hudson, Richard. 1976. 'The cushitic beja Language'. in Lionel Bender (ed.), Non-Semitic Languages of Ethiopia. Michigan State University Press. pp. 139-154; Appleyard, David. 2007. 'The cushitic beja Language'. in Alan Kaye (ed.), Morphologies of Asia and Africa (2 vols). Eisenbrauns. Winona Lake IN. Eisenbrauns. vol. 1, pp. 447-480 [HDp. and APp}",
   "datssourceNotes": " NOTE: Where  there  are  terminological  differences between Hudson and Appleyard we generally follow Appleyard. Note that Hudson uses the terms 'Preterite' and 'Past' respectively for what are here termed, following Appleyard, 'Past' and 'Aorist'. The 'Permissive' tam category forms the base of the 'Optative', with prefix 'bá-' (var. 'baà') using the modal stem class, which differs from the Aorist only for CCY verbs. Hudson also has tam categories 'Volitive' (Permissive with additional suffix -ay) and 'Negative Volitive' (= Negative Optative ['Bound Negative'] + ay).",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu",
+      "Tone": "'v̀' falling; 'v́' level;'v' unmarked"}},
+  "transcription-note": " In his chapter, Hudson marks tone on Beja words in terms of an underlying system: 'v̀' falling; 'v́' level;'v' unmarked, which Hudson maintains better permits tone-placement to be 'morphologically defined' (p. 101). (The notations -`C and - ́C mean that the syllable preceding the suffix C is to be marked as level or falling respectively.)  On pages 101-103 Hudson briefly outlines the processes by which the underlying tones surface phonetically, frequently on different syllables, as high ([v́],[v́v́]), falling ([v́a]), or level ([v],[vv]), with reference to a more detailed discussion in his article 'Syllables, Moras, and Accents in Beja', Journal of Linguistics 9(1973), 53-63. Appleyard's reformulation of Hudson's morphological analysis maintains, without discussion, Hudson's underlying tone marking.",
   "geodemoURL": "http://www.ethnologue.com/language/bej",
-  "geodemoTXT": "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety documented here is that of the Arteiga tribe in the vicinity of Port Sudan and Suakin, Sudan. This variety was studied by Richard Hudson (see especially Hudson 1976), and the data has been made conveniently available in a survey article by David Appleyard (Appleyard, 2007a).",
+  "geodemoTXT": "cushitic beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The variety documented here is that of the Arteiga tribe in the vicinity of Port Sudan and Suakin, Sudan. This variety was studied by Richard Hudson (see especially Hudson 1976), and the data has been made conveniently available in a survey article by David Appleyard (Appleyard, 2007a).",
   "schemata": {
   "case": [
     "Ablative",
@@ -48,11 +59,6 @@
     "Fem",
     "Masc"
   ],
-  "langVar": [
-    "Arteiga",
-    "Bishari",
-    "Hadendowa"
-  ],
   "lexeme": [
     "AUXILIARY",
     "COPULA",
@@ -64,16 +70,17 @@
     "bdn",
     "bikkaar",
     "bis",
-    "bít",
+    "bit",
     "dbl",
+    "dgl",
     "dgy",
     "dif",
     "dif2",
     "dir",
+    "dirim",
     "dlb",
     "dmy",
     "doob",
-    "dírim",
     "eegrim",
     "fid",
     "fif",
@@ -142,7 +149,6 @@
     "NonFin_Participles",
     "PLMARK",
     "POSTPOSITION",
-    "ProComp",
     "Stem_DervSem",
     "Stem_DervTense",
     "Stem_Tam"
@@ -297,6 +303,11 @@
     "conjClass": "Prefix",
     "rootClass": "CCC"
   },
+  "dgl": {
+    "pos": "Verb",
+    "lemma": "[x]",
+    "gloss": "[y]"
+  },
   "dgy": {
     "pos": "Verb",
     "lemma": "[y]",
@@ -361,7 +372,7 @@
     "derivedStem": "B",
     "derivedStemAug": "Simple"
   },
-  "dírim": {
+  "dirim": {
     "pos": "Noun",
     "lemma": "dírim",
     "gloss": "[x]",
@@ -853,225 +864,8 @@
     "derivedStem": "SMIntensive"
   }
 },
-"lexemes-fix": {
-  "ab": {
-    "pos": "Noun",
-    "lemma": "?àb",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "aba"
-  },
-  "as": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
-  },
-  "baaba": {
-    "pos": "Noun",
-    "lemma": "baabà",
-    "gloss": "[x]",
-    "pluralClass": "Pl_C",
-    "pluralform": "baabà"
-  },
-  "bikkaar": {
-    "pos": "Noun",
-    "lemma": "bikkàar",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "bikkàr"
-  },
-  "bis": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "bury",
-    "conjClass": "Prefix",
-    "rootClass": "CVC"
-  },
-  "bít": {
-    "pos": "Noun",
-    "lemma": "bít",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "bità"
-  },
-  "dgy": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "hear",
-    "conjClass": "Prefix",
-    "rootClass": "CCY"
-  },
-  "dírim": {
-    "pos": "Noun",
-    "lemma": "dírim",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "dirmà"
-  },
-  "frk": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
-  },
-  "gaw": {
-    "pos": "Noun",
-    "lemma": "gàw",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "gawà"
-  },
-  "ginuuf": {
-    "pos": "Noun",
-    "lemma": "ginuúf",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "ginúf"
-  },
-  "gnf": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
-  },
-  "hamas": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
-  },
-  "heelay": {
-    "pos": "Noun",
-    "lemma": "heèlay",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "heelayà"
-  },
-  "huus": {
-    "pos": "Noun",
-    "lemma": "huus",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "huusà"
-  },
-  "kaam": {
-    "pos": "Noun",
-    "lemma": "kaàm",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "kàm"
-  },
-  "kitaab": {
-    "pos": "Noun",
-    "lemma": "kitaàb",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "kitàb"
-  },
-  "kwa": {
-    "pos": "Noun",
-    "lemma": "kwà",
-    "gloss": "[x]",
-    "pluralClass": "Pl_C",
-    "pluralform": "kwà"
-  },
-  "liw": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "burn",
-    "rootClass": "CVC"
-  },
-  "miitaat": {
-    "pos": "Noun",
-    "lemma": "miitaàt",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "miitàt"
-  },
-  "nde": {
-    "pos": "Noun",
-    "lemma": "[n]dé",
-    "gloss": "[x]",
-    "pluralClass": "Pl_C",
-    "pluralform": "nde"
-  },
-  "ragad": {
-    "pos": "Noun",
-    "lemma": "ragàd",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "ragadà "
-  },
-  "san": {
-    "pos": "Noun",
-    "lemma": "sàn",
-    "gloss": "[x]",
-    "pluralClass": "Pl_A",
-    "pluralform": "sanà"
-  },
-  "swy": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
-  },
-  "tam": {
-    "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "eat",
-    "conjClass": "Suffix"
-  },
-  "yaas": {
-    "pos": "Noun",
-    "lemma": "yàas",
-    "gloss": "[x]",
-    "pluralClass": "Pl_B",
-    "pluralform": "yàs"
-  }
-},
   "pdgmPropOrder": ["pos","proClass","morphClass","conjClass","rootClass","lexeme","derivedStem","tam","polarity"],
   "termclusters": [
-  {
-    "label": "bhu-Noun:morph-PLMARK:",
-    "note": "APp.453-454-HDp.107f ",
-    "common": {
-      "morphClass": "PLMARK",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["lexeme" ,"pluralClass" ,"token"],
-      ["ab" ,"Pl_A" ,"?àb =&gt; ?abà"],
-      ["baaba" ,"Pl_C" ,"baabà =&gt; baabà"],
-      ["bikkaar" ,"Pl_B" ,"bikkàar =&gt; bikkàr"],
-      ["bit" ,"Pl_A" ,"bít =&gt; bità"],
-      ["dirim" ,"Pl_A" ,"dírim =&gt; dirmà"],
-      ["gaw" ,"Pl_A" ,"gàw =&gt; gawà"],
-      ["ginuuf" ,"Pl_B" ,"ginuúf =&gt; ginúf"],
-      ["heelay" ,"Pl_A" ,"heèlay =&gt; heelayà"],
-      ["huus" ,"Pl_A" ,"huus =&gt; huusà"],
-      ["kaam" ,"Pl_B" ,"kaàm =&gt; kàm"],
-      ["kitaab" ,"Pl_B" ,"kitaàb =&gt; kitàb"],
-      ["kwa" ,"Pl_C" ,"kwà =&gt; kwà"],
-      ["miitaat" ,"Pl_B" ,"miitaàt =&gt; miitàt"],
-      ["nde" ,"Pl_C" ,"[n]dé =&gt; [n]dè"],
-      ["ragad" ,"Pl_A" ,"ragàd =&gt; ragadà "],
-      ["san" ,"Pl_A" ,"sàn =&gt; sanà"],
-      ["yaas" ,"Pl_B" ,"yàas =&gt; yàs"]
-    ]
-  },
-  {
-    "label": "bhu-Nounmorph-POSTPOSITION-",
-    "note": "APp.456-HDp.108;110;126 ",
-    "common": {
-      "morphClass": "POSTPOSITION",
-      "pos": "Noun"
-    },
-    "terms": [
-      ["case" ,"postpositionClass" ,"token"],
-      ["Ablative" ,"Pp_A" ,"U"],
-      ["Ablative" ,"Pp_B" ,"-s-"],
-      ["Equative" ,"Pp_A" ,"-`t"],
-      ["Equative" ,"Pp_B" ,"- t-"],
-      ["Locative" ,"Pp_A" ,"-`b"],
-      ["Locative" ,"Pp_B" ,"U"]
-    ]
-  },
   {
     "label": "bhu-PronounDefMarker",
     "note": "APp.452",
@@ -2048,7 +1842,52 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-Affix_SubjMark-",
+    "label": "bhu-morphNoun-PLMARK",
+    "note": "APp.453-454-HDp.107f ",
+    "common": {
+      "morphClass": "PLMARK",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["lexeme" ,"pluralClass" ,"token"],
+      ["ab" ,"Pl_A" ,"?àb =&gt; ?abà"],
+      ["baaba" ,"Pl_C" ,"baabà =&gt; baabà"],
+      ["bikkaar" ,"Pl_B" ,"bikkàar =&gt; bikkàr"],
+      ["bit" ,"Pl_A" ,"bít =&gt; bità"],
+      ["dirim" ,"Pl_A" ,"dírim =&gt; dirmà"],
+      ["gaw" ,"Pl_A" ,"gàw =&gt; gawà"],
+      ["ginuuf" ,"Pl_B" ,"ginuúf =&gt; ginúf"],
+      ["heelay" ,"Pl_A" ,"heèlay =&gt; heelayà"],
+      ["huus" ,"Pl_A" ,"huus =&gt; huusà"],
+      ["kaam" ,"Pl_B" ,"kaàm =&gt; kàm"],
+      ["kitaab" ,"Pl_B" ,"kitaàb =&gt; kitàb"],
+      ["kwa" ,"Pl_C" ,"kwà =&gt; kwà"],
+      ["miitaat" ,"Pl_B" ,"miitaàt =&gt; miitàt"],
+      ["nde" ,"Pl_C" ,"[n]dé =&gt; [n]dè"],
+      ["ragad" ,"Pl_A" ,"ragàd =&gt; ragadà "],
+      ["san" ,"Pl_A" ,"sàn =&gt; sanà"],
+      ["yaas" ,"Pl_B" ,"yàas =&gt; yàs"]
+    ]
+  },
+  {
+    "label": "bhu-morphNoun-POSTPOSITION",
+    "note": "APp.456-HDp.108;110;126 ",
+    "common": {
+      "morphClass": "POSTPOSITION",
+      "pos": "Noun"
+    },
+    "terms": [
+      ["case" ,"postpositionClass" ,"token"],
+      ["Ablative" ,"Pp_A" ,"U"],
+      ["Ablative" ,"Pp_B" ,"-s-"],
+      ["Equative" ,"Pp_A" ,"-`t"],
+      ["Equative" ,"Pp_B" ,"- t-"],
+      ["Locative" ,"Pp_A" ,"-`b"],
+      ["Locative" ,"Pp_B" ,"U"]
+    ]
+  },
+  {
+    "label": "bhu-morphVerb-Affix_SubjMark",
     "note": "APp.467-HDp.115 ",
     "common": {
       "morphClass": "Affix_SubjMark",
@@ -2067,7 +1906,7 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-FinitePartial-BImperative",
+    "label": "bhu-morphVerb-FinitePartialBImperative",
     "note": "APp.472  :: and Various ",
     "common": {
       "morphClass": "FinitePartial",
@@ -2105,7 +1944,7 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-NonFin_Participles-B",
+    "label": "bhu-morphVerb-NonFin_ParticiplesB",
     "note": "APp.475-HDp.122 ",
     "common": {
       "morphClass": "NonFin_Participles",
@@ -2127,7 +1966,7 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-Stem_DervSem-",
+    "label": "bhu-morphVerb-Stem_DervSem",
     "note": "APp.462-466  :: and Various ",
     "common": {
       "morphClass": "Stem_DervSem",
@@ -2236,7 +2075,7 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-Stem_DervTense-Prefix",
+    "label": "bhu-morphVerb-Stem_DervTensePrefix",
     "note": "APp.473-HDp.105f;123-124 ",
     "common": {
       "morphClass": "Stem_DervTense",
@@ -2413,7 +2252,7 @@
     ]
   },
   {
-    "label": "bhu-Verbmorph-Stem_Tam--dbl-B",
+    "label": "bhu-morphVerb-Stem_Tam-dbl-B",
     "note": "APp.468-HDp.117;122f  :: and Various ",
     "common": {
       "morphClass": "Stem_Tam",
